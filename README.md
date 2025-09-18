@@ -4,16 +4,48 @@ A full-stack Task Manager built with **React (Vite + Tailwind v4)** and **Node.j
 Users can sign up, sign in, and manage tasks (CRUD) with authentication via **JWT**.
 
 ---
+# 🚀 Features
 
-## 🚀 Features
-- Secure authentication with JWT  
-- Protected routes (only logged-in users can access tasks)  
-- Task CRUD (title, description, due date, priority, status)  
-- Responsive UI with Tailwind CSS v4  
-- Modular backend (controllers, routes, middleware, models)  
-- Axios API integration on frontend  
-- Fixed navbar with backend status indicator  
-- Minimal, modern custom scrollbar  
+## 🔐 Authentication
+- Sign up and sign in endpoints implemented on backend  
+- Passwords securely hashed  
+- JWT used for session handling (stateless auth)  
+- Authenticated users only can access their own tasks  
+- Logout support on frontend  
+
+## ✅ Task Management (CRUD)
+- **Create** → Add tasks with title, description, due date, priority, and status (`todo`, `doing`, `done`)  
+- **Read** → View all tasks belonging to the logged-in user  
+- **Update** → Edit any field of a task (title, description, due date, priority, status)  
+- **Delete** → Remove tasks owned by the user  
+
+## 🖥️ Frontend (React + Vite + Tailwind v4)
+- Single Page App with React Router for navigation  
+- Pages: **Sign Up, Sign In, Task List, Task Editor**  
+- Loading states and validation errors shown in UI  
+- Tasks displayed with clean card layout (status badges, priority labels, due dates)  
+- Reusable components (`FormInput`, `AuthLayout`, `ProtectedRoute`) for cleaner code  
+- Fixed navbar with backend health check indicator  
+- Minimal, modern scrollbar styling  
+
+## ⚙️ Backend (Node.js + Express)
+- REST API with proper HTTP methods and status codes  
+- Endpoints for authentication and tasks  
+- Centralized error handling middleware  
+- Input validation for auth and tasks  
+- Controllers separated from routes for clarity  
+
+## 🗄️ Database (MongoDB / PostgreSQL)
+- **MongoDB with Mongoose** (current implementation)  
+- Tasks reference users (`user: ObjectId`) to ensure ownership  
+- Alternative relational schema possible with PostgreSQL (`user_id` foreign key)  
+
+## 🧪 Project Quality
+- `.env.example` provided with required environment variables  
+- Basic test included for backend endpoint (auth)  
+- Clean project structure with separation of concerns  
+- README with setup, run, and testing instructions  
+
 
 ---
 
@@ -71,8 +103,7 @@ http://localhost:5173
 ---
 
 ## 🧪 Testing
-- Backend: `npm test`  
-- Frontend: `npm test`  
+- Backend: `npm test` 
 
 ---
 
