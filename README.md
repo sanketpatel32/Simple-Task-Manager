@@ -4,6 +4,19 @@ A full-stack Task Manager built with **React (Vite + Tailwind v4)** and **Node.j
 Users can sign up, sign in, and manage tasks (CRUD) with authentication via **JWT**.
 
 ---
+
+## 🔗 Deployment
+https://taskmanagerfrontend-ho7pap6xu-sanketpatel32s-projects.vercel.app/
+
+#### How to know if your backend is running?  
+### 🔴 Inactive
+![Inactive screenshot](image.png)
+
+### 🟢 Active
+![Active screenshot](image-1.png)
+
+---
+
 # 🚀 Features
 
 ## 🔐 Authentication
@@ -116,13 +129,7 @@ http://localhost:5173
 
 ---
 
-## ✅ Future Improvements
-- Task filters + search  
-- Dark mode  
-- Role-based access control  
-- Docker + CI/CD for deployment  
-
----
-
 ## 📜 License
 MIT  
+
+---
