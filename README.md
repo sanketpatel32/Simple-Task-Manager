@@ -66,7 +66,7 @@ https://taskmanagerfrontend-ho7pap6xu-sanketpatel32s-projects.vercel.app/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/task-manager.git
+git clone https://github.com/sanketpatel32/Simple-Task-Manager.git
 cd task-manager
 ```
 
@@ -117,14 +117,14 @@ http://localhost:5173
 
 ## 🧪 Testing
 - Backend: `npm test` 
-
+- Frontend: `npm run test`
 ---
 
 ## 🎨 Design Choices
 - **Architecture** → Backend split into controllers, routes, middleware, models. Frontend split into pages, components, api.  
 - **Authentication** → JWT chosen for simplicity + stateless auth. Token stored in `localStorage`.  
 - **Database** → MongoDB chosen for flexibility; each task has a user reference.  
-- **UI/UX** → Tailwind v4, reusable components, fixed navbar, clean task cards with badges, minimal scrollbar.  
+- **UI/UX** → Tailwind v4, reusable components, fixed navbar, clean task cards with badges.  
 - **Scalability** → ProtectedRoute wrapper, Axios API layer, centralized error handling.  
 
 ---
