@@ -31,7 +31,6 @@ backend/.env.*.local
 # MongoDB data (if running local database dumps)
 dump/
 *.bson
-*.json
 *.lock
 
 # --- Frontend specific ---
