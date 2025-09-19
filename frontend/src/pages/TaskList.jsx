@@ -23,7 +23,7 @@ export default function TaskList() {
         setLoading(true);
         setError("");
         try {
-            const data = await fetchTasks("asc"); 
+            const data = await fetchTasks(); 
             setTasks(data);
         } catch (err) {
             if (err.status === 401) {

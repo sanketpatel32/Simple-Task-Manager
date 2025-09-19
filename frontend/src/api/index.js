@@ -31,8 +31,8 @@ export const signin = async (email, password) => {
 };
 
 // --- Task APIs ---
-export const fetchTasks = async (order = "asc") => {
-  const res = await api.get(`/tasks/?order=${order}`);
+export const fetchTasks = async () => {
+  const res = await api.get(`/tasks`);
   return res.data;
 };
 
