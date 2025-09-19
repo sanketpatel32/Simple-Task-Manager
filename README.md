@@ -6,7 +6,7 @@ Users can sign up, sign in, and manage tasks (CRUD) with authentication via **JW
 ---
 
 ## 🔗 Deployment
-https://taskmanagerfrontend-ho7pap6xu-sanketpatel32s-projects.vercel.app/
+https://simple-task-manager-sigma.vercel.app/
 
 #### How to know if your backend is running?  
 ### 🔴 Inactive
